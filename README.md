@@ -13,11 +13,17 @@ This Python script performs comprehensive analysis and visualization of the clas
 ## 📂 File Structure
 iris-analysis/
 ├── iris_analysis.py # Main analysis script
+
 ├── README.md # This documentation
+
 ├── sepal_length_line.png # Line chart visualization
+
 ├── petal_length_bar.png # Bar chart visualization
+
 ├── sepal_width_hist.png # Histogram visualization
+
 ├── sepal_petal_scatter.png # Scatter plot visualization
+
 └── pairplot.png # Pairplot visualization
 
 
@@ -27,39 +33,31 @@ iris-analysis/
    git clone https://github.com/yourusername/iris-analysis.git
    cd iris-analysis
 Install required packages:
-
-bash
-pip install pandas matplotlib seaborn scikit-learn
+    -pip install pandas matplotlib seaborn scikit-learn
 🚀 Usage
-Run the analysis script:
-
-bash
-python iris_analysis.py
+   Run the analysis script:
+     -python iris_analysis.py
 The script will:
+   -Load and explore the Iris dataset
+   -Perform statistical analysis
+   -Generate 5 visualizations (saved as PNG files)
 
-Load and explore the Iris dataset
-
-Perform statistical analysis
-
-Generate 5 visualizations (saved as PNG files)
-
-📊 Visualization Outputs
-Plot Type	File	Description
-Line Chart	sepal_length_line.png	Trends in sepal length across samples
-Bar Chart	petal_length_bar.png	Average petal length by species
-Histogram	sepal_width_hist.png	Distribution of sepal width
-Scatter Plot	sepal_petal_scatter.png	Sepal vs petal length relationship
-Pairplot	pairplot.png	All pairwise relationships
+## 📊 Visualization Outputs
+   -Plot Type	File	Description
+   -Line Chart	sepal_length_line.png	Trends in sepal length across samples
+   -Bar Chart	petal_length_bar.png	Average petal length by species
+   -Histogram	sepal_width_hist.png	Distribution of sepal width
+   -Scatter Plot	sepal_petal_scatter.png	Sepal vs petal length relationship
+   -Pairplot	pairplot.png	All pairwise relationships
 🔍 Key Findings
-Setosa has significantly smaller petals than other species
-
-Virginica has the longest sepals on average
-
-Versicolor shows the most variation in petal width
+   -Setosa has significantly smaller petals than other species
+   -Virginica has the longest sepals on average
+   -Versicolor shows the most variation in petal width
 
 📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+   -This project is licensed under the MIT License - see the LICENSE file 
+    for details.
 
 ✉️ Contact
-For questions or feedback, please contact:
-[Christine Nyambwari] - [christinenyambwari@gmail.com]
+    For questions or feedback, please contact:
+    [Christine Nyambwari] - [christinenyambwari@gmail.com]
